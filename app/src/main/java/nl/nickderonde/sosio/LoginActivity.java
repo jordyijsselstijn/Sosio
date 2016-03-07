@@ -39,6 +39,7 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
 
+
     /**
      * Id to identity READ_CONTACTS permission request.
      */
@@ -69,6 +70,18 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
+//        BasicUser nick = new BasicUser();
+//
+//        String[] musicalInterest = {
+//          "metal", "Jazz", "Blues", "Rock"
+//        };
+//        String[] culturalInterest = {
+//          "Theater", "Musicals", "Clubbing"
+//        };
+//
+//        nick.setBasicUser("booking", "nick@nick.nl", "Nick", "de Ronde", musicalInterest, culturalInterest);
+//
+
 
         mPasswordView = (EditText) findViewById(R.id.password);
         mPasswordView.setOnEditorActionListener(new TextView.OnEditorActionListener() {
