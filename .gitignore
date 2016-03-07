@@ -6,3 +6,7 @@
 .DS_Store
 /build
 /captures
+runConfigurations.xml
+gradle.xml
+modules.xml
+misc.xml
